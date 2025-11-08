@@ -1,4 +1,3 @@
-
 import { Service, ServiceArea, LocalAttraction } from './types';
 
 export const BUSINESS_INFO = {
@@ -32,24 +31,33 @@ export const SERVICES: Service[] = [
   { name: "Outdoor Event Toilet Rental", slug: "outdoor-event-toilet-rental" },
   { name: "Long-Term Porta Potty Rental", slug: "long-term-porta-potty-rental" },
   { name: "Short-Term Porta Potty Rental", slug: "short-term-porta-potty-rental" },
+  { name: "ADA Accessible Porta Potty", slug: "ada-accessible-porta-potty" },
+  { name: "Handwashing Stations", slug: "handwashing-stations" },
+  { name: "Holding Tanks", slug: "holding-tanks" },
+  { name: "High-Rise Porta Potty", slug: "high-rise-porta-potty" },
+  { name: "Emergency Porta Potty Rental", slug: "emergency-porta-potty-rental" },
+  { name: "Wedding Restroom Rental", slug: "wedding-restroom-rental" },
+  { name: "Festival Porta Potty Rental", slug: "festival-porta-potty-rental" },
+  { name: "Seasonal Porta Potty Rental", slug: "seasonal-porta-potty-rental" },
+  { name: "Commercial Porta Potty Rental", slug: "commercial-porta-potty-rental" }
 ];
 
 export const SERVICE_AREAS: ServiceArea[] = [
-    { city: "Arlington", state: "TX", slug: "arlington" },
-    { city: "Grand Prairie", state: "TX", slug: "grand-prairie" },
-    { city: "Fort Worth", state: "TX", slug: "fort-worth" },
-    { city: "Dallas", state: "TX", slug: "dallas" },
-    { city: "Irving", state: "TX", slug: "irving" },
-    { city: "Plano", state: "TX", slug: "plano" },
-    { city: "Garland", state: "TX", slug: "garland" },
-    { city: "McKinney", state: "TX", slug: "mckinney" },
-    { city: "Frisco", state: "TX", slug: "frisco" },
-    { city: "Denton", state: "TX", slug: "denton" },
-    { city: "Richardson", state: "TX", slug: "richardson" },
-    { city: "Carrollton", state: "TX", slug: "carrollton" },
-    { city: "Mesquite", state: "TX", slug: "mesquite" },
-    { city: "Pasadena", state: "TX", slug: "pasadena" },
-    { city: "Killeen", state: "TX", slug: "killeen" },
+    { city: "Mansfield", state: "TX", slug: "mansfield-tx" },
+    { city: "Arlington", state: "TX", slug: "arlington-tx" },
+    { city: "Burleson", state: "TX", slug: "burleson-tx" },
+    { city: "Grand Prairie", state: "TX", slug: "grand-prairie-tx" },
+    { city: "Kennedale", state: "TX", slug: "kennedale-tx" },
+    { city: "Crowley", state: "TX", slug: "crowley-tx" },
+    { city: "Rendon", state: "TX", slug: "rendon-tx" },
+    { city: "Forest Hill", state: "TX", slug: "forest-hill-tx" },
+    { city: "Benbrook", state: "TX", slug: "benbrook-tx" },
+    { city: "Cedar Hill", state: "TX", slug: "cedar-hill-tx" },
+    { city: "Midlothian", state: "TX", slug: "midlothian-tx" },
+    { city: "Lancaster", state: "TX", slug: "lancaster-tx" },
+    { city: "Red Oak", state: "TX", slug: "red-oak-tx" },
+    { city: "Venice", state: "TX", slug: "venice-tx" },
+    { city: "Waxahachie", state: "TX", slug: "waxahachie-tx" }
 ];
 
 export const LOCAL_ATTRACTIONS: LocalAttraction[] = [

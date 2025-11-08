@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from 'react-hot-toast';
 
@@ -23,7 +23,7 @@ import NotFoundPage from './pages/NotFoundPage';
 function App() {
   return (
     <HelmetProvider>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Layout>
           <Routes>
@@ -43,7 +43,7 @@ function App() {
           </Routes>
         </Layout>
         <Toaster position="bottom-right" />
-      </HashRouter>
+      </BrowserRouter>
     </HelmetProvider>
   );
 }

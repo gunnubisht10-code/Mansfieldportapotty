@@ -42,13 +42,13 @@ const HomePage: React.FC = () => {
   const serviceAreasForSchema = SERVICE_AREAS.map(area => ({
     "@type": "City",
     "name": `${area.city}, ${area.state}`,
-    "url": `${BUSINESS_INFO.baseUrl}/#/service-areas/${area.slug}`
+    "url": `${BUSINESS_INFO.baseUrl}/service-areas/${area.slug}`
   }));
 
   const servicesForSchema = SERVICES.map(service => ({
     "@type": "Service",
     "name": service.name,
-    "url": `${BUSINESS_INFO.baseUrl}/#/services/${service.slug}`
+    "url": `${BUSINESS_INFO.baseUrl}/services/${service.slug}`
   }));
 
   const homePageSchema = {

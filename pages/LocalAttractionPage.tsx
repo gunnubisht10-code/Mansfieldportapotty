@@ -40,7 +40,7 @@ const LocalAttractionPage: React.FC = () => {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url": `${BUSINESS_INFO.baseUrl}/#/local-attractions/${attraction.slug}`,
+    "url": `${BUSINESS_INFO.baseUrl}/local-attractions/${attraction.slug}`,
     "name": `A Guide to ${attraction.name} in Mansfield, TX`,
     "description": `Discover the history, activities, and visitor information for ${attraction.name}, a popular local attraction in Mansfield, TX.`,
     "isPartOf": {

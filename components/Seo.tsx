@@ -13,7 +13,7 @@ interface SeoProps {
 
 const Seo: React.FC<SeoProps> = ({ title, description, canonicalUrl, imageUrl, children }) => {
   const siteTitle = `${title} | ${BUSINESS_INFO.name}`;
-  const effectiveUrl = `${BUSINESS_INFO.baseUrl}/${canonicalUrl ? `#/${canonicalUrl}` : ''}`;
+  const effectiveUrl = `${BUSINESS_INFO.baseUrl}${canonicalUrl ? `/${canonicalUrl}` : ''}`;
   const effectiveImageUrl = imageUrl || `${BUSINESS_INFO.baseUrl}/og-image.jpg`; // A default OG image is recommended
 
   return (

@@ -12,7 +12,7 @@ const ContactPage: React.FC = () => {
   const contactPageSchema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "url": `${BUSINESS_INFO.baseUrl}/#/contact`,
+    "url": `${BUSINESS_INFO.baseUrl}/contact`,
     "name": "Contact Lawrence Rental Works",
     "description": "Get in touch with Lawrence Rental Works for all your porta potty rental needs in Mansfield, TX. Contact us by phone, email, or through our online form.",
     "mainEntity": {

@@ -56,7 +56,7 @@ const ServiceDetailPage: React.FC = () => {
     },
     "name": `${service.name} in Mansfield, TX`,
     "description": `Learn more about our professional ${service.name} services in Mansfield, TX. We offer reliable, clean, and affordable solutions for your needs.`,
-    "url": `${BUSINESS_INFO.baseUrl}/#/services/${service.slug}`
+    "url": `${BUSINESS_INFO.baseUrl}/services/${service.slug}`
   };
 
   const faqContent = content.split(`**FAQs for ${service.name}**`)[1] || '';

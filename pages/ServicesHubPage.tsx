@@ -12,13 +12,13 @@ const ServicesHubPage: React.FC = () => {
   const servicesForSchema = SERVICES.map(service => ({
     "@type": "Service",
     "name": service.name,
-    "url": `${BUSINESS_INFO.baseUrl}/#/services/${service.slug}`
+    "url": `${BUSINESS_INFO.baseUrl}/services/${service.slug}`
   }));
 
   const servicePageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url": `${BUSINESS_INFO.baseUrl}/#/services`,
+    "url": `${BUSINESS_INFO.baseUrl}/services`,
     "name": `Our Porta Potty Rental Services | ${BUSINESS_INFO.name}`,
     "description": `Explore our comprehensive range of portable toilet and sanitation services in Mansfield, TX. From standard units to luxury restroom trailers, we have a solution for every need.`,
     "mainEntity": {

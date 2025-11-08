@@ -27,7 +27,7 @@ const AboutPage: React.FC = () => {
   const aboutPageSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "url": `${BUSINESS_INFO.baseUrl}/#/about`,
+    "url": `${BUSINESS_INFO.baseUrl}/about`,
     "name": `About ${BUSINESS_INFO.name}`,
     "description": `Learn about ${BUSINESS_INFO.name}, our mission, values, and our commitment to providing the best porta potty rental services in Mansfield, TX.`,
     "mainEntity": {

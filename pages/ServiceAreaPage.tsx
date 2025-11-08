@@ -46,7 +46,7 @@ const ServiceAreaPage: React.FC = () => {
     "@type": "LocalBusiness",
     "name": `${BUSINESS_INFO.name} - ${area.city}`,
     "image": `${BUSINESS_INFO.baseUrl}/logo.png`,
-    "url": `${BUSINESS_INFO.baseUrl}/#/service-areas/${area.slug}`,
+    "url": `${BUSINESS_INFO.baseUrl}/service-areas/${area.slug}`,
     "telephone": BUSINESS_INFO.phone,
     "priceRange": "$$",
     "address": BUSINESS_INFO.address, // Main business address
